@@ -144,6 +144,10 @@ header a:hover {
   text-shadow: 1px 1px 1px black;
 }
 
+.about-text {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
 .tedx-video,
 .promo-video {
   height: 370px;
@@ -231,6 +235,11 @@ article h3 {
 .made-by {
   color: gray;
   border-top: 1px solid gray;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 @media (max-width: 1024px) {
