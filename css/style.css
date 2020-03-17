@@ -3,6 +3,8 @@
 
 body {
   font-family: "Lato", sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
   overflow-x: hidden;
 }
 
@@ -72,7 +74,7 @@ header a:hover {
 }
 
 .home-inner {
-  background-image: url(../images/brochuredraft2in.png);
+  background-image: url(../images/brochuredraft2in.jpg);
 }
 
 .tickets-btn {
@@ -121,7 +123,7 @@ header a:hover {
 }
 
 .fixed {
-  background-image: url(../images/sx1.png);
+  background-image: url(../images/sx1.jpg);
 }
 
 .fixed-countdown,
@@ -132,11 +134,11 @@ header a:hover {
 }
 
 .fixed-speakers {
-  background-image: url(../images/IMG-132.png);
+  background-image: url(../images/IMG-132.jpg);
 }
 
 .fixed-performers {
-  background-image: url(../images/guitar.png);
+  background-image: url(../images/guitar.jpg);
 }
 
 .about {
