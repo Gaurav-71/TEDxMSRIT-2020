@@ -1,5 +1,5 @@
 /* Font */
-@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
 
 /* Design */
 *,
@@ -8,8 +8,7 @@
   box-sizing: border-box;
 }
 
-
-.mycards{
+.mycards {
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -54,11 +53,11 @@ img {
   flex-direction: column;
   overflow: hidden;
   text-align: center;
-  background: linear-gradient(to bottom left, red, black);  
+  background: linear-gradient(to bottom left, red, black);
 }
 
 .card_content {
-  padding: 1rem;  
+  padding: 1rem;
 }
 
 .card_title {
@@ -74,7 +73,6 @@ img {
   color: #ffffff;
   font-size: 0.875rem;
   line-height: 1.5;
-  margin-bottom: 1.25rem;    
+  margin-bottom: 1.25rem;
   font-weight: 400;
 }
-

@@ -1,543 +1,713 @@
-@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url("https://fonts.googleapis.com/css?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
 
-body{
-    font-family: 'Lato',sans-serif;
-    overflow-x: hidden;      
+body {
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
 }
 
-header a, header a:hover{
-    color: white;
-    text-decoration: none;
+header a,
+header a:hover {
+  color: white;
+  text-decoration: none;
 }
 
-.navbar{    
-    background: rgba(0,0,0)!important;
+.navbar {
+  background: rgba(0, 0, 0) !important;
 }
 
-.navbar img{
-    max-width:200px ;    
+.navbar img {
+  max-width: 200px;
 }
 
-.nav-link{
-    color:white !important;
+.nav-link {
+  color: white !important;
 }
 
-.nav-link:hover{
-    color: rgb(230, 43, 30) !important;
+.nav-link:hover {
+  color: rgb(230, 43, 30) !important;
 }
 
-.active .nav-link{
-    color: rgb(230, 43, 30) !important;
+.active .nav-link {
+  color: rgb(230, 43, 30) !important;
 }
 
-.menu-right-btn{
-    background-color: transparent !important;       
-    color: white !important;
+.menu-right-btn {
+  background-color: transparent !important;
+  color: white !important;
 }
 
-.menu-right-btn:hover{
-    color: white !important;
-    background-color: rgb(230, 43, 30) !important;
+.menu-right-btn:hover {
+  color: white !important;
+  background-color: rgb(230, 43, 30) !important;
 }
 
-.caption{
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 32%;
+  z-index: 1;
+}
+
+.title {
+  font-size: 6rem;
+  font-family: "Righteous", cursive;
+  color: rgb(230, 43, 30) !important;
+}
+
+.quote {
+  font-size: 1.5rem;
+  font-family: "Righteous", cursive;
+  color: white !important;
+}
+
+.socialicon {
+  max-width: 36px;
+}
+
+.sociallink {
+  margin: 1%;
+  margin-left: 0;
+}
+
+.home-inner {
+  background-image: url(../images/brochuredraft2in.png);
+}
+
+.tickets-btn {
+  margin-top: 2%;
+  margin-bottom: 1.5%;
+  width: 20%;
+  background-color: rgb(230, 43, 30) !important;
+  color: white;
+}
+
+.tickets-btn:hover {
+  background-color: rgb(155, 25, 15) !important;
+  color: white;
+}
+
+.date {
+  border-radius: none;
+  color: white;
+  font-family: "Righteous", cursive;
+  overflow: hidden;
+  margin: 0;
+}
+
+.circle {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 1);
+  width: 12rem;
+  height: 12rem;
+  border: 2px solid rgb(230, 43, 30);
+  font-size: 2rem;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 10px 0px rgb(230, 43, 30);
+}
+
+.circle-date span {
+  font-size: 2rem;
+}
+
+.circle span {
+  display: block;
+  padding-top: 1rem;
+  font-size: 3.5rem;
+}
+
+.fixed {
+  background-image: url(../images/sx1.png);
+}
+
+.fixed-countdown,
+.fixed-session,
+.fixed-organizers,
+.fixed-carousel {
+  background-image: url(../images/925.jpg);
+}
+
+.fixed-speakers {
+  background-image: url(../images/IMG-132.png);
+}
+
+.fixed-performers {
+  background-image: url(../images/guitar.png);
+}
+
+.about {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.tedx-video,
+.promo-video {
+  height: 370px;
+  width: 550px;
+}
+
+.session h3 {
+  color: white;
+  padding-top: 1em;
+}
+
+.session i {
+  background: -webkit-linear-gradient(bottom right, red, rgb(73, 21, 16));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.speaker-title,
+.about-title,
+.organizers-title,
+.gallery-title {
+  color: white;
+  font-size: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 0.8rem;
+  text-shadow: 1px 1px 1px black;
+}
+
+.organizer-img {
+  width: 14rem;
+  height: 14rem;
+}
+
+.organizer-name {
+  color: white;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 1px black;
+}
+
+.organizer-position {
+  color: rgb(230, 43, 30);
+  text-shadow: 1px 1px 1px black;
+}
+
+.address {
+  color: white;
+  font-size: 1rem;
+}
+
+footer {
+  background-image: url(../images/928.jpg);
+  color: white;
+}
+
+footer i {
+  color: red;
+}
+
+.email {
+  padding-top: 1em;
+  padding-right: 2.3em;
+}
+
+.location {
+  padding-bottom: 1em;
+}
+
+article h3 {
+  color: rgb(230, 43, 30);
+}
+
+.maps {
+  max-width: 400px;
+  height: 60px;
+}
+
+.underline {
+  width: 3rem;
+  height: 0.2rem;
+  background-color: rgba(230, 43, 30, 0.7);
+  margin: 0 auto 2rem;
+  text-shadow: 1px 1px 1px black;
+}
+
+.made-by {
+  color: gray;
+  border-top: 1px solid gray;
+}
+
+@media (max-width: 1024px) {
+  .tedx-video,
+  .promo-video {
+    height: 300px;
+    width: 430px; /*520*/
+  }
+}
+
+@media (max-width: 1112px) {
+  .tedx-video,
+  .promo-video {
+    height: 300px;
+    width: 430px; /*520*/
+  }
+}
+
+@media (max-width: 834px) {
+  .caption {
     width: 100%;
     max-width: 100%;
     position: absolute;
-    top: 32%;
+    top: 23%;
     z-index: 1;
-}
-
-.title{
-    font-size: 6rem;
-    font-family: 'Righteous', cursive;
+  }
+  .title {
+    font-size: 4rem;
+    font-family: "Righteous", cursive;
     color: rgb(230, 43, 30) !important;
-}
-
-.quote{    
-    font-size: 1.5rem;
-    font-family: 'Righteous', cursive;
+  }
+  .quote {
+    font-size: 1rem;
+    font-family: "Righteous", cursive;
     color: white !important;
-}
-
-.socialicon{    
-    max-width: 36px;        
-}
-
-.sociallink{
-    margin:1%;
-    margin-left: 0;
-}
-
-.home-inner{
-    background-image: url("/images/brochuredraft2in.png");     
-}
-
-.tickets-btn{    
-    margin-top: 2%;
-    margin-bottom: 1.5% ;
-    width: 20%;
+  }
+  .tickets-btn {
+    margin-top: 3.5%;
+    margin-bottom: 1.5%;
+    width: 25%;
+    font-size: 1rem;
     background-color: rgb(230, 43, 30) !important;
     color: white;
-}
-
-.tickets-btn:hover{    
-    background-color:  rgb(155, 25, 15) !important;;    
-    color: white;
-}
-
-.date{        
-    border-radius: none;
-    color: white;
-    font-family: 'Righteous', cursive;
-    overflow: hidden;
-    margin: 0;    
-}
-
-.circle{
+  }
+  .socials {
+    padding-right: 1.2rem;
+    margin-top: 1rem;
+  }
+  .socialicon {
+    max-width: 30px;
+  }
+  .sociallink {
+    margin: 1%;
+    margin-left: 0;
+  }
+  .circle {
     display: inline-block;
     background-color: rgba(0, 0, 0, 1);
-    width: 12rem;
-    height: 12rem;
-    border: 2px solid rgb(230, 43, 30);    
-    font-size: 2rem;
+    width: 9rem;
+    height: 9rem;
+    border: 2px solid rgb(230, 43, 30);
+    font-size: 1rem;
     border-radius: 50%;
     overflow: hidden;
     -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
     -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
     box-shadow: 0px 0px 10px 0px rgb(230, 43, 30);
-}
+  }
 
-.circle-date span{
-        font-size: 2rem;
-}
+  .circle-date span {
+    font-size: 2rem;
+  }
 
-.circle span{
+  .circle span {
     display: block;
-    padding-top:1rem ;
-    font-size: 3.5rem;    
+    padding-top: 1rem;
+    font-size: 2.5rem;
+  }
+
+  .tedx-video,
+  .promo-video {
+    height: 400px;
+    width: 330px; /*520*/
+  }
 }
 
-.fixed{
-    background-image: url(/images/sx1.png);
-}
-
-.fixed-countdown, .fixed-session, .fixed-organizers, .fixed-carousel {
-    background-image: url(/images/925.jpg);
-}
-
-.fixed-speakers{
-    background-image: url(/images/IMG-132.png);
-}
-
-.fixed-performers{
-    background-image: url(/images/guitar.png);
-}
-
-.about{
-    color: white;
-    text-shadow: 1px 1px 1px black;
-}
-
-.tedx-video, .promo-video{
-    height: 370px;
-    width : 550px; 
-}
-
-.session h3{
-    color: white;
-    padding-top:1em;
-}
-
-.session i{
-    background: -webkit-linear-gradient(bottom right,red,rgb(73, 21, 16));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;    
-}
-
-.speaker-title , .about-title, .organizers-title, .gallery-title{    
-    color: white;  
-    font-size: 3rem;
-    padding-top: 1rem; 
-    padding-bottom: 0.8rem; 
-    text-shadow: 1px 1px 1px black;
-}
-
-.organizer-img{
-    width: 14rem;
-    height: 14rem;
-}
-
-.organizer-name{
-    color: white;
-    font-size: 1.5rem;
-    text-shadow: 1px 1px 1px black;
-}
-
-.organizer-position{
-    color: rgb(230, 43, 30);
-    text-shadow: 1px 1px 1px black;    
-}
-
-.address{
-    color:white;
+@media (max-width: 812px) {
+  .caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 23%;
+    z-index: 1;
+  }
+  .title {
+    font-size: 4rem;
+    font-family: "Righteous", cursive;
+    color: rgb(230, 43, 30) !important;
+  }
+  .quote {
     font-size: 1rem;
-}
-
-footer{
-    background-image: url(/images/928.jpg);
+    font-family: "Righteous", cursive;
+    color: white !important;
+  }
+  .tickets-btn {
+    margin-top: 3.5%;
+    margin-bottom: 1.5%;
+    width: 25%;
+    font-size: 1rem;
+    background-color: rgb(230, 43, 30) !important;
     color: white;
+  }
+  .socials {
+    padding-right: 1.2rem;
+    margin-top: 1rem;
+  }
+  .socialicon {
+    max-width: 30px;
+  }
+  .sociallink {
+    margin: 1%;
+    margin-left: 0;
+  }
+  .circle {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 1);
+    width: 9rem;
+    height: 9rem;
+    border: 2px solid rgb(230, 43, 30);
+    font-size: 1rem;
+    border-radius: 50%;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 10px 0px rgb(230, 43, 30);
+  }
+
+  .circle-date span {
+    font-size: 2rem;
+  }
+
+  .circle span {
+    display: block;
+    padding-top: 1rem;
+    font-size: 2.5rem;
+  }
+
+  .tedx-video,
+  .promo-video {
+    height: 400px;
+    width: 330px; /*520*/
+  }
 }
 
-footer i{
-    color: red;
+@media (max-width: 810px) {
+  .caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 23%;
+    z-index: 1;
+  }
+  .title {
+    font-size: 4rem;
+    font-family: "Righteous", cursive;
+    color: rgb(230, 43, 30) !important;
+  }
+  .quote {
+    font-size: 1rem;
+    font-family: "Righteous", cursive;
+    color: white !important;
+  }
+  .tickets-btn {
+    margin-top: 3.5%;
+    margin-bottom: 1.5%;
+    width: 25%;
+    font-size: 1rem;
+    background-color: rgb(230, 43, 30) !important;
+    color: white;
+  }
+  .socials {
+    padding-right: 1.2rem;
+    margin-top: 1rem;
+  }
+  .socialicon {
+    max-width: 30px;
+  }
+  .sociallink {
+    margin: 1%;
+    margin-left: 0;
+  }
+  .circle {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 1);
+    width: 9rem;
+    height: 9rem;
+    border: 2px solid rgb(230, 43, 30);
+    font-size: 1rem;
+    border-radius: 50%;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 10px 0px rgb(230, 43, 30);
+  }
+
+  .circle-date span {
+    font-size: 2rem;
+  }
+
+  .circle span {
+    display: block;
+    padding-top: 1rem;
+    font-size: 2.5rem;
+  }
+
+  .tedx-video,
+  .promo-video {
+    height: 400px;
+    width: 330px; /*520*/
+  }
 }
 
-.email{
-    padding-top: 1em;
-    padding-right: 2.3em;
+@media (max-width: 768px) {
+  .caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 23%;
+    z-index: 1;
+  }
+  .title {
+    font-size: 7rem;
+    font-family: "Righteous", cursive;
+    color: rgb(230, 43, 30) !important;
+  }
+  .quote {
+    font-size: 2rem;
+    font-family: "Righteous", cursive;
+    color: white !important;
+  }
+  .tickets-btn {
+    margin-top: 4%;
+    margin-bottom: 1.5%;
+    width: 30%;
+    background-color: rgb(230, 43, 30) !important;
+    color: white;
+  }
+  .socials {
+    padding-right: 1.2rem;
+    margin-top: 1rem;
+  }
+  .socialicon {
+    max-width: 40px;
+  }
+  .sociallink {
+    margin: 1%;
+    margin-left: 0;
+  }
+  .circle {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 1);
+    width: 9rem;
+    height: 9rem;
+    border: 2px solid rgb(230, 43, 30);
+    font-size: 1rem;
+    border-radius: 50%;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 10px 0px rgb(230, 43, 30);
+  }
+
+  .circle-date span {
+    font-size: 2rem;
+  }
+
+  .circle span {
+    display: block;
+    padding-top: 1rem;
+    font-size: 2.5rem;
+  }
+
+  .tedx-video,
+  .promo-video {
+    height: 400px;
+    width: 330px; /*520*/
+  }
 }
 
-.location{
-    padding-bottom: 1em;
+@media (max-width: 667px) {
+  .caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 23%;
+    z-index: 1;
+  }
+  .title {
+    font-size: 4rem;
+    font-family: "Righteous", cursive;
+    color: rgb(230, 43, 30) !important;
+  }
+  .quote {
+    font-size: 1rem;
+    font-family: "Righteous", cursive;
+    color: white !important;
+  }
+  .tickets-btn {
+    margin-top: 3.5%;
+    margin-bottom: 1.5%;
+    width: 25%;
+    font-size: 1rem;
+    background-color: rgb(230, 43, 30) !important;
+    color: white;
+  }
+  .socials {
+    padding-right: 1.2rem;
+    margin-top: 1rem;
+  }
+  .socialicon {
+    max-width: 30px;
+  }
+  .sociallink {
+    margin: 1%;
+    margin-left: 0;
+  }
 }
 
-article h3{
-    color: rgb(230, 43, 30);
+@media (max-width: 414px) {
+  .caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 30%;
+    z-index: 1;
+  }
+  .title {
+    font-size: 4rem;
+    font-family: "Righteous", cursive;
+    color: rgb(230, 43, 30) !important;
+  }
+  .quote {
+    font-size: 1.2rem;
+    font-family: "Righteous", cursive;
+    color: white !important;
+  }
+
+  .tickets-btn {
+    margin-top: 5%;
+    margin-bottom: 1.5%;
+    width: 40%;
+    background-color: rgb(230, 43, 30) !important;
+    color: white;
+  }
+
+  .socials {
+    padding-right: 1.2rem;
+    margin-top: 1rem;
+  }
+
+  .socialicon {
+    max-width: 36px;
+  }
+  .sociallink {
+    margin: 1%;
+    margin-left: 0;
+  }
+  .tedx-video,
+  .promo-video {
+    height: 400px;
+    width: 330px; /*520*/
+  }
+  .maps {
+    width: 280px;
+    height: 60px;
+  }
 }
 
-.maps{
-    max-width:400px;
-    height:60px;
+@media (max-width: 375px) {
+  .caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 30%;
+    z-index: 1;
+  }
+  .title {
+    font-size: 4rem;
+    font-family: "Righteous", cursive;
+    color: rgb(230, 43, 30) !important;
+  }
+  .quote {
+    font-size: 1.2rem;
+    font-family: "Righteous", cursive;
+    color: white !important;
+  }
+
+  .tickets-btn {
+    margin-top: 5%;
+    margin-bottom: 1.5%;
+    width: 40%;
+    background-color: rgb(230, 43, 30) !important;
+    color: white;
+  }
+
+  .socials {
+    padding-right: 1.2rem;
+    margin-top: 1rem;
+  }
+
+  .socialicon {
+    max-width: 36px;
+  }
+  .sociallink {
+    margin: 1%;
+    margin-left: 0;
+  }
+  .tedx-video,
+  .promo-video {
+    height: 400px;
+    width: 320px; /*520*/
+  }
+  .maps {
+    width: 280px;
+    height: 60px;
+  }
 }
 
-@media(max-width:1024px){    
-    .tedx-video, .promo-video{
-        height: 300px;
-        width : 430px; /*520*/
-    }
-    
-}
+@media (max-width: 320px) {
+  .caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 30%;
+    z-index: 1;
+  }
+  .title {
+    font-size: 3rem;
+    font-family: "Righteous", cursive;
+    color: rgb(230, 43, 30) !important;
+  }
+  .quote {
+    font-size: 0.9rem;
+    font-family: "Righteous", cursive;
+    color: white !important;
+  }
 
-@media(max-width:812px){
-    .caption{
-        width: 100%;
-        max-width: 100%;
-        position: absolute;
-        top: 23%;
-        z-index: 1;
-    }    
-    .title{
-        font-size: 4rem;
-        font-family: 'Righteous', cursive;
-        color: rgb(230, 43, 30) !important;
-    }    
-    .quote{    
-        font-size: 1rem;
-        font-family: 'Righteous', cursive;
-        color: white !important;
-    }   
-    .tickets-btn{    
-        margin-top: 3.5%;
-        margin-bottom: 1.5% ;
-        width: 25%;
-        font-size: 1rem;
-        background-color: rgb(230, 43, 30) !important;
-        color: white;
-    } 
-    .socials{
-        padding-right: 1.2rem;
-        margin-top: 1rem;
-    }
-    .socialicon{    
-        max-width: 30px;    
-    }    
-    .sociallink{
-        margin:1%;
-        margin-left: 0;
-    }
-    .circle{
-        display: inline-block;
-        background-color: rgba(0, 0, 0, 1);
-        width: 9rem;
-        height: 9rem;
-        border: 2px solid rgb(230, 43, 30);    
-        font-size: 1rem;
-        border-radius: 50%;
-        overflow: hidden;
-        -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
-        -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
-        box-shadow: 0px 0px 10px 0px rgb(230, 43, 30);
-    }
-    
-    .circle-date span{
-            font-size: 2rem;
-    }
-    
-    .circle span{
-        display: block;
-        padding-top:1rem ;
-        font-size: 2.5rem;    
-    } 
+  .tickets-btn {
+    margin-top: 5%;
+    margin-bottom: 1.5%;
+    width: 40%;
+    background-color: rgb(230, 43, 30) !important;
+    color: white;
+  }
 
-    .tedx-video, .promo-video{
-        height: 400px;
-        width : 330px; /*520*/
-    }
-}
+  .socials {
+    padding-right: 1.3rem;
+    margin-top: 1rem;
+  }
 
-@media(max-width:768px){
-    .caption{
-        width: 100%;
-        max-width: 100%;
-        position: absolute;
-        top: 23%;
-        z-index: 1;
-    }    
-    .title{
-        font-size: 7rem;
-        font-family: 'Righteous', cursive;
-        color: rgb(230, 43, 30) !important;
-    }    
-    .quote{    
-        font-size: 2rem;
-        font-family: 'Righteous', cursive;
-        color: white !important;
-    }   
-    .tickets-btn{    
-        margin-top: 4%;
-        margin-bottom: 1.5% ;
-        width: 30%;
-        background-color: rgb(230, 43, 30) !important;
-        color: white;
-    } 
-    .socials{
-        padding-right: 1.2rem;
-        margin-top: 1rem;
-    }
-    .socialicon{    
-        max-width: 40px;    
-    }    
-    .sociallink{
-        margin:1%;
-        margin-left: 0;
-    }
-    .circle{
-        display: inline-block;
-        background-color: rgba(0, 0, 0, 1);
-        width: 9rem;
-        height: 9rem;
-        border: 2px solid rgb(230, 43, 30);    
-        font-size: 1rem;
-        border-radius: 50%;
-        overflow: hidden;
-        -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
-        -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
-        box-shadow: 0px 0px 10px 0px rgb(230, 43, 30);
-    }
-    
-    .circle-date span{
-            font-size: 2rem;
-    }
-    
-    .circle span{
-        display: block;
-        padding-top:1rem ;
-        font-size: 2.5rem;    
-    } 
+  .socialicon {
+    max-width: 35px;
+  }
 
-    .tedx-video, .promo-video{
-        height: 400px;
-        width : 330px; /*520*/
-    }
-}
+  .sociallink {
+    margin: 1%;
+    margin-left: 0;
+  }
 
-@media(max-width:667px){
-        .caption{
-        width: 100%;
-        max-width: 100%;
-        position: absolute;
-        top: 23%;
-        z-index: 1;
-    }    
-    .title{
-        font-size: 4rem;
-        font-family: 'Righteous', cursive;
-        color: rgb(230, 43, 30) !important;
-    }    
-    .quote{    
-        font-size: 1rem;
-        font-family: 'Righteous', cursive;
-        color: white !important;
-    }   
-    .tickets-btn{    
-        margin-top: 3.5%;
-        margin-bottom: 1.5% ;
-        width: 25%;
-        font-size: 1rem;
-        background-color: rgb(230, 43, 30) !important;
-        color: white;
-    } 
-    .socials{
-        padding-right: 1.2rem;
-        margin-top: 1rem;
-    }
-    .socialicon{    
-        max-width: 30px;    
-    }    
-    .sociallink{
-        margin:1%;
-        margin-left: 0;
-    }
-}
+  .tedx-video,
+  .promo-video {
+    height: 370px;
+    width: 280px; /*520*/
+  }
 
-@media(max-width:414px){
-    .caption{
-        width: 100%;
-        max-width: 100%;
-        position: absolute;
-        top: 30%;
-        z-index: 1;
-    }    
-    .title{
-        font-size: 4rem;
-        font-family: 'Righteous', cursive;
-        color: rgb(230, 43, 30) !important;
-    }    
-    .quote{    
-        font-size: 1.2rem;
-        font-family: 'Righteous', cursive;
-        color: white !important;
-    }    
-
-    .tickets-btn{    
-        margin-top: 5%;
-        margin-bottom: 1.5% ;
-        width: 40%;
-        background-color: rgb(230, 43, 30) !important;
-        color: white;
-    }
-
-    .socials{
-        padding-right: 1.2rem;
-        margin-top: 1rem;
-    }
-
-    .socialicon{    
-        max-width: 36px;    
-    }    
-    .sociallink{
-        margin:1%;
-        margin-left: 0;        
-    }    
-    .tedx-video, .promo-video{
-        height: 400px;
-        width : 330px; /*520*/
-    }
-    .maps{
-        width:280px;
-        height:60px;
-    }
-}
-
-@media(max-width:375px){
-    .caption{
-        width: 100%;
-        max-width: 100%;
-        position: absolute;
-        top: 30%;
-        z-index: 1;
-    }    
-    .title{
-        font-size: 4rem;
-        font-family: 'Righteous', cursive;
-        color: rgb(230, 43, 30) !important;
-    }    
-    .quote{    
-        font-size: 1.2rem;
-        font-family: 'Righteous', cursive;
-        color: white !important;
-    }    
-
-    .tickets-btn{    
-        margin-top: 5%;
-        margin-bottom: 1.5% ;
-        width: 40%;
-        background-color: rgb(230, 43, 30) !important;
-        color: white;
-    }
-
-    .socials{
-        padding-right: 1.2rem;
-        margin-top: 1rem;
-    }
-
-    .socialicon{    
-        max-width: 36px;    
-    }    
-    .sociallink{
-        margin:1%;
-        margin-left: 0;        
-    }    
-    .tedx-video, .promo-video{
-        height: 400px;
-        width : 320px; /*520*/
-    }
-    .maps{
-        width:280px;
-        height:60px;
-    }
-}
-
-@media(max-width:320px){
-    .caption{
-        width: 100%;
-        max-width: 100%;
-        position: absolute;
-        top: 30%;
-        z-index: 1;
-    }    
-    .title{
-        font-size: 3rem;
-        font-family: 'Righteous', cursive;
-        color: rgb(230, 43, 30) !important;
-    }    
-    .quote{    
-        font-size: .9rem;
-        font-family: 'Righteous', cursive;
-        color: white !important;
-    }    
-
-    .tickets-btn{    
-        margin-top: 5%;
-        margin-bottom: 1.5% ;
-        width: 40%;
-        background-color: rgb(230, 43, 30) !important;
-        color: white;
-    }
-
-    .socials{
-        padding-right: 1.3rem;
-        margin-top: 1rem;
-    }
-
-    .socialicon{    
-        max-width: 35px;    
-    }    
-
-    .sociallink{
-        margin:1%;
-        margin-left: 0;        
-    }    
-
-    .tedx-video, .promo-video{
-        height: 370px;
-        width : 280px; /*520*/
-    }
-
-    .maps{
-        width:280px;
-        height:60px;
-    }
+  .maps {
+    width: 280px;
+    height: 60px;
+  }
 }
