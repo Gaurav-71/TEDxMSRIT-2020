@@ -23,6 +23,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
+  justify-content: center;
   margin: 0;
   padding: 0;
 }
@@ -30,17 +31,12 @@ img {
 .cards_item {
   display: flex;
   padding: 1rem;
+  width: 300px;
 }
 
-@media (min-width: 40rem) {
+@media all and (max-width: 1024px) {
   .cards_item {
-    width: 50%;
-  }
-}
-
-@media (min-width: 56rem) {
-  .cards_item {
-    width: 25%;
+    margin: 1rem;
   }
 }
 
