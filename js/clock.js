@@ -1,5 +1,5 @@
 function result() {        
-    let end = new Date("2020-04-11T09:00:00-06:00");
+    let end = new Date("2020-04-11T09:00:00");
     let start = new Date();
     let remTime = end.getTime() - start.getTime();    
     let mm = Math.floor(remTime/( 1000*60));
